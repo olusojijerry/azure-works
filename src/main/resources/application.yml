@@ -1,0 +1,11 @@
+server:
+  port: 4553
+
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+  application:
+    name: TestingAz
